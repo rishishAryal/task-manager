@@ -7,7 +7,7 @@
     @vite('resources/css/app.css')
 </head>
 <body>
-
+<a href="/" class="text-3xl m-5 text-white block w-fit p-4 bg-blue-500 rounded-2xl">Home</a>
 <div class="flex justify-center my-4">
 
     @auth

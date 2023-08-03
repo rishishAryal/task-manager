@@ -14,4 +14,7 @@ class Task extends Model
 
     ];
     use HasFactory;
+    public function  users(){
+        return $this->belongsTo(User::class);
+    }
 }
